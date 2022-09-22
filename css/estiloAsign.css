@@ -1,0 +1,88 @@
+div.contenedor{
+    width: 100%;
+    border: 1px solid gray;
+}
+
+header, footer {
+    padding: 1em;
+    color: white;
+    background-color: rgb(244, 231, 96);
+    clear: left;
+    text-align: center;
+}
+
+nav {
+    float: left;
+    max-width: 200px;
+    margin: 0;
+    padding: 0.5em;
+
+}
+
+nav ul {
+    list-style-type: none; /* elimina viñeta*/
+    padding: 0;
+}
+
+nav ul a {
+    text-decoration: none;
+
+}
+
+a.active {
+    color: blue;
+}
+
+article {
+    margin-left: 190px;
+    border-left: 1px solid gray;
+    padding: 1em;
+    overflow: hidden;
+    background-color: rgb(213, 206, 214);
+    background-repeat:repeat-y; /*no-repeat;*/
+    /*background-size:300px 180px;*/
+}
+
+p{
+  margin-left: 500px;
+}
+
+h1{
+  text-align:center;
+  font-size: 200%;
+}
+
+
+
+#programacionWeb{
+  color:rgb(20, 241, 182);
+}
+
+#Contabilidad{
+  color:rgb(242, 15, 216);
+}
+
+#AlgebraLineal{
+  color:rgb(141, 94, 212);
+}
+
+#ProgramacionOrientadaAObjetos{
+  color:hsl(125, 86%, 51%);
+}
+
+.imgProgrw{
+  background-image: url("../img/progrw.jpg");
+  background-size:contain;
+  }
+.imgConta{
+  background-image: url("../img/conta.jpg");
+  background-size:contain;
+}
+.imgAlgebra{
+  background-image: url("../img/algebra.jpg");
+  background-size:contain;
+}
+.imgPoo{
+  background-image: url("../img/poo.jpg");
+  background-size:contain;
+}
